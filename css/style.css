@@ -1,0 +1,63 @@
+/* ROOT */
+
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+
+img{
+    display: block;
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    font-family: var();
+    font-weight: var();
+    background-color: var();
+}
+
+.container{
+    /* max-width: 1340px; */
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.hero-section{
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.site-main{
+    flex-grow: 1;
+}
+.form-js{
+    display: none;
+}
+.form-block{
+    display: block;
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+.form-wrapper{
+    position: fixed;
+    top: 150px;
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
